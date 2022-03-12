@@ -1,0 +1,81 @@
+/* Iserimento e regolazione immagine background */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+/* Inserimento automatico colore del testo a tutto il main */
+main{
+  color: white;
+}
+/* Gestione del quadrante più scuro */
+#QuadranteScuro{
+  height: 820px;
+  margin-top: 50px;
+  margin-left: 18%;
+  margin-right: 18%;
+  background-color: rgba(20, 20, 20, 0.5);
+  border-radius: 2%;
+}
+/* gestione titolo */
+header span{
+  display: block;
+  color: rgb(0, 221, 0);
+  font-size: 35px;
+  font-weight: bold;
+}
+/* dimensionamento logo e centratura */
+header{
+  text-align: center;
+}
+.logo{
+  width: 250px;
+  margin-top: 7%;
+}
+/* Regolazione riquadro dei buttons */
+header div{
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  padding-top: 8px;
+  background-color: rgb(0, 221, 0);
+}
+
+/* Regolazione font delle section e trasformazione degli span in "inline-block" */
+.via{
+  font-size: 18px;
+  padding-top: 6px;
+}
+.description{
+  font-size: 24px;
+  font-weight: bold;
+}
+.description, .freccia, .via{
+  display: inline-block;
+}
+/* Centratura delle section */
+.monopattino{
+  width: 80%;
+  margin: auto;
+}
+/* Regolazione font del testo "Stato carica:" */
+span.carica{
+  font-size: 18px;
+  padding-top: 4px;
+}
+/* Gestione barre di carica */
+section div{
+  height: 30px;
+  border-radius: 7px;
+}
+.barra{
+  width: 300px;
+  background-color: rgb(245, 180, 83);
+}
+.barra2{
+  width: 500px;
+  background-color: rgb(30, 195, 30);
+}
+.barra3{
+  width: 100px;
+  background-color: rgb(245,80, 83);
+  }
